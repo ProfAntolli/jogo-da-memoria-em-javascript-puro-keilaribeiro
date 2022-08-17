@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #3b0938 url('../img/formandos.png') no-repeat bottom
+    ;
+    background-size: 100%;
+    padding-bottom: 15px;
+  }
+
+   header{
+    max-width:100vh;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+   #tituloprincipal{
+    color: #f15c5c;
+    font-family:serif; 
+    text-align: center;
+    border-bottom: dotted 12px rgb(236, 152, 48);
+    margin: 20px;
+    padding: 1%;
+    font-size: 42pt;
+    transform-style: preserve-3d;
+   
+  }
+  
+ #cardboard {
+    width: 900px;
+    height: 90vh;
+    margin: auto;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    border: ridge 28px #f15c5c;
+  }
+  
+  .memory-card {
+    width: calc(25% - 8px);
+    height: 25%;
+    margin: auto;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+    position: relative;
+    backface-visibility: hidden;
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    position: absolute;
+    background: #19a82e;
+    border: ridge 12px #f15c5c;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
