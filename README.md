@@ -1,1 +1,1 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8229018&assignment_repo_type=AssignmentRepo)
+![cursosacademicos](https://user-images.githubusercontent.com/84742648/185251329-ec7067f5-49fa-4a85-9ff1-1d0a8ea63b11.png)
